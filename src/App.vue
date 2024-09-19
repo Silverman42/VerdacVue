@@ -4,6 +4,7 @@ import Compositon from './components/verdac/CompositionComp.vue'
 import EventComp from './components/verdac/EventsComp.vue'
 import ParentComp from './components/verdac/ParentComp.vue'
 import FormComp from './components/verdac/FormComp.vue'
+import UsersComp from './components/verdac/UsersComp.vue'
 
 const sayHurray = (event: Event) => {
   // count.value += 5
@@ -41,7 +42,8 @@ const sayHurray = (event: Event) => {
       </p>
     </template>
   </ParentComp> -->
-  <FormComp> </FormComp>
+  <!-- <FormComp> </FormComp> -->
+  <UsersComp></UsersComp>
 </template>
 
 <style></style>
